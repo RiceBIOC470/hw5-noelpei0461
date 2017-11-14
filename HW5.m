@@ -1,4 +1,14 @@
 %HW5
+%GB comments
+1a 70 missing an output image of the segmentation
+1b 100
+1c 70 some problem as 1a	
+1d 100
+2yeast: 100 just invert the image to get a proper mask
+2worm:90 Image needs to be inverted and need code (or Illastik h5 file) to selectively remove the incorrectly produced masks framing the image. 
+2bacteria: 100
+2phase: 90 image needs to be inverted and could have implemented some scrip to remove the hallo around the centroids.  
+Overall: 90
 
 % Note. You can use the code readIlastikFile.m provided in the repository to read the output from
 % ilastik into MATLAB.
